@@ -9,7 +9,11 @@ body
 h1{
 	font-size: 50px;
 }
-section{
+h2
+{
+    font-size: 40px;
+}
+.flexible{
 	display: flex;
 }
 .first{
@@ -20,13 +24,15 @@ section{
 }
 .first img
 {
-	width: 60%;
+	width: 80%;
 }
 p
 {
-    font-size: 21px;
-    color: #996B72;
+    font-size: 20px;
+    color: #816969;
     font-family: 'Lato';
+    text-align: justify;
+    padding-right: 5%;
 }
 .link_button
 {
@@ -41,4 +47,49 @@ p
 {
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
+}
+.second
+{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat ;
+    background-position: right center;
+    width: 50%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+.experience
+{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat ;
+    background-position: left bottom;
+    margin-bottom: 70px;
+}
+.second p{
+    padding-right: 20%;
+}
+.item1
+{
+    box-shadow: 10px 10px 50px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 35px;
+    border-radius: 10px;
+    padding-bottom: 40px;
+}
+#dev1
+{
+    border-left: 7px solid;
+    border-image: linear-gradient(#FF6347,#FF6347);
+    border-image-slice: 1;
+}
+#dev2
+{
+    border-left: 7px solid;
+    border-image: linear-gradient(hwb(240 53% 9%),#0000FF);
+    border-image-slice: 1;
+}
+footer p
+{
+    text-align: center;
 }
